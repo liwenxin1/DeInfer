@@ -1,0 +1,10 @@
+{
+    "name": "mobilenet",
+    "type": "image classification",
+    "batchsize":[1,2,4,8,16],
+    "input_shape": [3, 224, 224],
+    "output_shape": [1000],
+    "slo":5000,
+    "flag":0,
+    "lib_file":["mobilenet_B1.so","mobilenet_B2.so","mobilenet_B4.so","mobilenet_B8.so","mobilenet_B16.so"]
+}
